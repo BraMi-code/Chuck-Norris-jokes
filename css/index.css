@@ -2,4 +2,29 @@ body {
     background-image: url('https://www.insp.com/content/uploads/2015/01/chuck-1200x628.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;}
+    background-size: cover;
+}
+
+.jokeContainer {
+    width: 50%;
+    height: 50%;
+}
+
+button, select {
+    background-color: cadetblue;
+    border: 0px solid;
+    border-radius: 30px;
+    width: 100px;
+    height: 70px;
+    margin: 1px;
+    padding: 5px;
+}
+
+select {
+    border: 0;
+    height: 34px;
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) 
+    no-repeat right cadetblue;
+    -webkit-appearance: none;
+    background-position-x: 75px;
+}
