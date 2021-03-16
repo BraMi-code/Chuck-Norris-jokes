@@ -5,11 +5,6 @@ body {
     background-size: cover;
 }
 
-.jokeContainer {
-    width: 50%;
-    height: 50%;
-}
-
 button, select {
     background-color: cadetblue;
     border: 0px solid;
@@ -27,4 +22,9 @@ select {
     no-repeat right cadetblue;
     -webkit-appearance: none;
     background-position-x: 75px;
+}
+
+.jokeContainer {
+    width: 50%;
+    height: 50%;
 }
